@@ -1,0 +1,71 @@
+
+Too low:
+
+"USA is going to attack us"
+1) Ask Protection from the USSR (-USSR -Fund)
+2) Defend only by ourself
+
+"USSR is going to attack us"
+1) Ask Protection from the USA (-USA -Fund)
+2) Defend only by ourself (-Army)
+
+"We have too low support of our people"
+1)Send in the Army (-Army +Pop)
+2)Help With Funding Healthcare (-Fund +Pop)
+
+"We have too low support of our army"
+1) Start few Purges (+Army -Pop)
+2) Buy some people (+Army -Fund)
+
+"We have too low funding"
+1) Increase taxes (+Fund -Pop)
+2) Ask International support (-USSR - USA)
+
+Random:
+
+"Rebels are attacking in the north"
+1) We have to defend our population (+Pop -Army)
+2) We have to pull back on better positions (-Pop +Army)
+
+"Our people are starving"
+1) I want to eat too (--Pop +Fund)
+2) Here is your food (--Fund +Pop)
+
+"Army asking for building a new Academy"
+1) Why not? (--Fund +Army)
+2) No we need to spend mour money more logically (--Army +Fund)
+
+"Official opposition is gaining support in future elections"
+1) We need support of our people (--Fund +Pop)
+2) Make it quick... (--USSR --USA)
+
+
+Game Overs:
+
+	pop100
+"Resistance has grown too far and rebels conquered all of the country"
+1) Don't kill me please...
+
+	army100
+"Our Army became too powerful and overthrew us"
+1) I have my poor family...
+
+	fund100
+"We had so much money in our treasury that people blamed us in deadly corruption and killed us"
+1)Have mercy...
+
+	ussr100/usa100
+"Without balanced support of superpowers they managed to divide our nation"
+1)Why...
+
+	pop0
+"Without any support of our people forces of UN came to our country"
+1)Oh No...
+
+	army0
+"Without support of our army rebels easily took our palace"
+1)Where is our garrison...
+
+	fund0
+"We have nothing in our treasury and because of the crisis rebels took over the palace"
+1)How they dare...
